@@ -2,7 +2,6 @@
 public class TestaVariaveisDouble {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		double salario; 
 		double divisao; 
 		int outraDivisao; 
