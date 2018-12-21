@@ -1,0 +1,6 @@
+package bytebank_heranca;
+
+public abstract interface Tributos {
+	
+		public abstract double getValorTributação(); 
+}

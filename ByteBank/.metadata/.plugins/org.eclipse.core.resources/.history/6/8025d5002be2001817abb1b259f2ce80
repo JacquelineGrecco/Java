@@ -1,0 +1,7 @@
+package bytebank_heranca;
+
+public abstract interface CalculadorImposto  {
+	
+	public abstract void calculaImposto(); 
+
+}

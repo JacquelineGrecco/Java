@@ -1,0 +1,11 @@
+package bytebank_heranca;
+
+public class SeguroVida implements Tributos {
+
+	@Override
+	public double getValorTributação() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

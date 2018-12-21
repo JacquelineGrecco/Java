@@ -1,0 +1,14 @@
+package strategy;
+
+public class CalculadorDeImposto {
+
+	public void realizaCalculo (Orcamento orcamento, Imposto imposto) {
+		double icms = imposto.calcula(orcamento); 
+		System.out.println(icms);
+	} 
+	
+	public void calculaISS (Orcamento orcamento) {
+		double iss = new ISS().calcula(orcamento); 
+		System.out.println(iss);
+	}
+}

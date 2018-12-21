@@ -1,0 +1,6 @@
+package funcionario_herança;
+
+public class AutenticavelUtil {
+
+	private int senha;
+}

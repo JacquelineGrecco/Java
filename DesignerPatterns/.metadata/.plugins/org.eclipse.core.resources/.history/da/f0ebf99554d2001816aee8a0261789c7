@@ -1,0 +1,14 @@
+package designerPattern;
+
+public class CalculadorDeImposto {
+
+	public void calculaICMS(Orcamento orcamento) {
+		double icms = new ICMS().calculaICMS(orcamento); 
+		System.out.println(icms);
+	} 
+	
+	public void calculaISS (Orcamento orcamento) {
+		double iss = new ISS().calculaISS(orcamento); 
+		System.out.println(iss);
+	}
+}

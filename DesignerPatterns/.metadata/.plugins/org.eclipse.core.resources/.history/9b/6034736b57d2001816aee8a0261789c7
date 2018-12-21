@@ -1,0 +1,7 @@
+package designerPattern;
+
+public interface Imposto {
+	
+		double calcula (Orcamento orcamento); 
+
+}

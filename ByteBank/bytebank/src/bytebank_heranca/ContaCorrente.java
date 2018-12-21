@@ -1,0 +1,26 @@
+package bytebank_heranca;
+
+public class ContaCorrente extends Conta implements Tributos {
+
+	public ContaCorrente(int agencia, int numero) {
+		super(agencia, numero);
+	}
+
+	@Override
+	public boolean saque(double valor) {
+		double valorASacar = valor + 0.2;
+		return super.saque(valorASacar);
+	}
+
+	@Override
+	public void deposita(double valor) {
+		if (valor > 0) {
+			super.saldo += super.saldo + valor;
+		}
+	}
+
+	@Override
+	public double getValorTributação() {
+		return this.saldo * 0.02;
+	}
+}

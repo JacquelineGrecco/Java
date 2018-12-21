@@ -1,0 +1,13 @@
+package bytebank_heranca;
+
+public class CalculadorImposto{
+	
+	private double total; 
+
+	public void registra(Tributos tributo) {
+		double valor = tributo.getValorTributação(); 
+		this.total =+ valor; 
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package funcionario_herança;
+
+public class Gerente extends Autenticavel {
+
+	public double getBonus () {
+			return super.getSalario();   
+	}
+
+	@Override
+	public double getSalarioBonificiado() {
+		return 0;
+	}	
+}

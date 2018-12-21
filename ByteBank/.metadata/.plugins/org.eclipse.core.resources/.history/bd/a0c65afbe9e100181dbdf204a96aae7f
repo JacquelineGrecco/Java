@@ -1,0 +1,20 @@
+package funcionario_herança;
+
+public interface Autenticavel {
+	
+	int senha = 0; 
+	
+	   public default void setSenha(int senha) {
+	    	Autenticavel.senha = senha; 
+	    }
+	
+	public default boolean autentica(int senha) {
+	        if(Autenticavel.senha == senha) {
+	            return true;
+	        } else {
+	            return false;
+	        }
+	    } 
+}
+
+

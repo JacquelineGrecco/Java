@@ -1,0 +1,7 @@
+package bytebank_heranca;
+
+public class CalculadorImposto implements Tributos {
+	
+	
+
+}

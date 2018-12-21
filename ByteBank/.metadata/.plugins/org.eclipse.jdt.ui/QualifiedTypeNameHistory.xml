@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="bytebank_herança.ControleBonificacao"/>
+<fullyQualifiedTypeName name="bytebank_herança.Funcionario"/>
+<fullyQualifiedTypeName name="bytebank_herança.EditorVideo"/>
+<fullyQualifiedTypeName name="funcionario_herança.EditorVideo"/>
+<fullyQualifiedTypeName name="funcionario_herança.Administrator"/>
+<fullyQualifiedTypeName name="funcionario_herança.Funcionario"/>
+<fullyQualifiedTypeName name="funcionario_herança.FuncionarioAutenticavel"/>
+<fullyQualifiedTypeName name="funcionario_herança.Autenticavel"/>
+<fullyQualifiedTypeName name="bytebank_heranca.CalculadorImposto"/>
+<fullyQualifiedTypeName name="bytebank_heranca.Tributos"/>
+</qualifiedTypeNameHistroy>
